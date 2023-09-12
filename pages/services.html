@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/custom.css" />
+    <link rel="stylesheet" href="/styles/services.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <script src="/scripts/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#">
+            <img src="/assest/pagelogo.PNG" alt="" />
+          </a>
+          <!-- <p>StyleSensei</p> -->
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <ul class="menu" id="menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#" class="active">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button
+          id="translation-button"
+          onclick="toggleTranslation()"
+          style="border: 1px solid orangered"
+        >
+          Urdu
+        </button>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="services-content">
+        <h1 class="services-heading">Customize Your Box Styling</h1>
+        <p class="services-about" id="services-about">
+          Use the controls below to adjust the box shadow, border, size, and
+          text properties of your box. Preview the changes in real-time and copy
+          the generated CSS properties.
+        </p>
+        
+      </div>
+      <section class="services-container">
+        <div class="service">
+          <i class="fas fa-desktop icons-services"></i>
+          <h2>Responsive Web Design</h2>
+          <p id="service1">
+            We create stunning and user-friendly websites that adapt seamlessly
+            to various devices and screen sizes.
+          </p>
+        </div>
+        <div class="service">
+          <i class="fas fa-paint-brush icons-services"></i>
+          <h2>Custom UI/UX Design</h2>
+          <p id="service2">
+            Our team designs unique and engaging user interfaces to enhance the
+            overall user experience of your website.
+          </p>
+        </div>
+        <div class="service">
+          <i class="fas fa-code icons-services"></i>
+          <h2>Frontend Development</h2>
+          <p id="service3">
+            We bring your designs to life by coding them into fully functional
+            and interactive web applications.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <section class="instractions" id="instraction">
+      The provided HTML code appears to be a "Box Shadow Generator" interface
+      that allows users to customize the properties of a box (such as its box
+      shadow, border, size, and text properties) and view the CSS properties
+      generated based on their selections. It also includes a button to copy
+      these CSS properties. Here are some instructions on how to use this code:
+      <br />
+      <br />
+
+      <h3>Box Shadow Controls:</h3>
+      <br />
+      <br />
+      <b>
+        Use the sliders under "Horizontal Shadow," "Vertical Shadow," "Blur,"
+        "Spread," and the color picker under "Color" to customize the box
+        shadow.</b
+      >
+      <br />
+      <br />
+      Adjust the properties under "Border Properties" to set the border width,
+      style, and color. Modify the "Box Size" by specifying the width and height
+      in pixels using the input fields. Define the "Border Radius" using the
+      input field. Customize the "Text Properties" such as text color, text
+      background color, text indent, and text decoration. Set the "Box Padding"
+      using the input field. Live Preview:
+      <br />
+      <br />
+
+      The box on the right side of the interface, with the class "box,"
+      represents the live preview of the box with the selected properties.
+      Generated CSS Properties:
+      <br />
+      <br />
+
+      Below the controls, there is a section with the title "Box Properties." As
+      you adjust the settings, the generated CSS properties for the box shadow,
+      border, width, and height will be displayed here. Copy Properties:
+      <br />
+      <br />
+
+      Click the "Copy Properties" button to copy the generated CSS properties to
+      your clipboard. You can then paste these properties into your own CSS to
+      apply the same styling to other elements. To use this code, you can simply
+      copy and paste it into an HTML file and open it in a web browser. You can
+      then interact with the controls to customize the box's appearance and use
+      the generated CSS properties in your own projects.
+      <br />
+      <br />
+
+      Note: This code appears to rely on JavaScript to update the live preview
+      and generate the CSS properties, so make sure any necessary JavaScript
+      code is included in your project. If you have any specific questions or
+      need further assistance with this code, please feel free to ask.
+    </section>
+
+    <button id="scrollToTopButton">
+      <i class="fas fa-angle-up icon-top"></i>
+    </button>
+    <footer>
+      <div class="footer-row">
+        <div class="footer-col">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="/pages/about.html">About Us</a></li>
+            <li><a href="/pages/services.html">Services</a></li>
+            <li><a href="/pages/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="/pages/mainWork.html">Box Shadow </a></li>
+            <li><a href="/pages/mainWork.html">Box Styling </a></li>
+            <li><a href="/pages/mainWork.html">Box Border </a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Connect</h3>
+          <ul>
+            <li>
+              <a
+                href="https://twitter.com/Itx_farhankhan?t=RK7ACRpx5h1iy6vpbx5h3w&s=09#"
+                class="icon"
+                target="_blank"
+              >
+                <p>Twitter</p>
+
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/923479397755" target="_blank" class="icon">
+                <p>Whatsapp</p>
+
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/profile.php?id=100018431485130&mibextid=ZbWKwL"
+                target="_blank"
+                class="icon"
+              >
+                <p>Facebook</p>
+
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/itx_farhan__khan/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
+                target="_blank"
+                class="icon"
+              >
+                <p>Instagram</p>
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const scrollToTopButton = document.getElementById("scrollToTopButton");
+
+      // Function to scroll to the top of the page
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth", // Add smooth scrolling behavior
+        });
+      }
+
+      // Show the button when the user scrolls down a certain amount
+      window.addEventListener("scroll", () => {
+        if (document.documentElement.scrollTop > 300) {
+          scrollToTopButton.style.display = "block";
+        } else {
+          scrollToTopButton.style.display = "none";
+        }
+      });
+
+      // Add a click event listener to the button
+      scrollToTopButton.addEventListener("click", scrollToTop);
+
+      // ==========================Translation =====================
+
+      let isEnglish = true;
+
+      const englishText = {
+        service1: `We create stunning and user-friendly websites that adapt seamlessly to various devices and screen sizes.`,
+        service2: `Our team designs unique and engaging user interfaces to enhance the overall user experience of your website.`,
+        service3: `We bring your designs to life by coding them into fully functional and interactive web applications.`,
+        servicesAbout: `Use the controls below to adjust the box shadow, border, size, and text properties of your box. Preview the changes in real-time and copy the generated CSS properties.`,
+        instraction: `
+      The provided HTML code appears to be a "Box Shadow Generator" interface
+      that allows users to customize the properties of a box (such as its box
+      shadow, border, size, and text properties) and view the CSS properties
+      generated based on their selections. It also includes a button to copy
+      these CSS properties. Here are some instructions on how to use this code:
+      <br />
+      <br />
+
+      <h3>Box Shadow Controls:</h3>
+      <br />
+      <br />
+      <b>
+        Use the sliders under "Horizontal Shadow," "Vertical Shadow," "Blur,"
+        "Spread," and the color picker under "Color" to customize the box
+        shadow.</b
+      >
+      <br />
+      <br />
+      Adjust the properties under "Border Properties" to set the border width,
+      style, and color. Modify the "Box Size" by specifying the width and height
+      in pixels using the input fields. Define the "Border Radius" using the
+      input field. Customize the "Text Properties" such as text color, text
+      background color, text indent, and text decoration. Set the "Box Padding"
+      using the input field. Live Preview:
+      <br />
+      <br />
+
+      The box on the right side of the interface, with the class "box,"
+      represents the live preview of the box with the selected properties.
+      Generated CSS Properties:
+      <br />
+      <br />
+
+      Below the controls, there is a section with the title "Box Properties." As
+      you adjust the settings, the generated CSS properties for the box shadow,
+      border, width, and height will be displayed here. Copy Properties:
+      <br />
+      <br />
+
+      Click the "Copy Properties" button to copy the generated CSS properties to
+      your clipboard. You can then paste these properties into your own CSS to
+      apply the same styling to other elements. To use this code, you can simply
+      copy and paste it into an HTML file and open it in a web browser. You can
+      then interact with the controls to customize the box's appearance and use
+      the generated CSS properties in your own projects.
+      <br />
+      <br />
+
+      Note: This code appears to rely on JavaScript to update the live preview
+      and generate the CSS properties, so make sure any necessary JavaScript
+      code is included in your project. If you have any specific questions or
+      need further assistance with this code, please feel free to ask.`,
+      };
+
+      const urduText = {
+        service1: `ہم شاندار اور صارف دوست ویب سائٹس بناتے ہیں جو مختلف آلات اور سکرین کے سائز کے مطابق بغیر کسی رکاوٹ کے ڈھال لیتی ہیں۔`,
+        service2: `ہماری ٹیم آپ کی ویب سائٹ کے صارف کے مجموعی تجربے کو بڑھانے کے لیے منفرد اور پرکشش یوزر انٹرفیس ڈیزائن کرتی ہے۔`,
+        service3: `ہم آپ کے ڈیزائن کو مکمل طور پر فعال اور انٹرایکٹو ویب ایپلیکیشنز میں کوڈ کر کے زندہ کرتے ہیں۔`,
+        servicesAbout: `سروسز کے بارے میں: اپنے باکس کے شیڈو، بارڈر، سائز اور ٹیکسٹ کی خصوصیات کو ایڈجسٹ کرنے کے لیے نیچے دیئے گئے کنٹرولز کا استعمال کریں۔ ریئل ٹائم میں تبدیلیوں کا جائزہ لیں اور تیار کردہ CSS پراپرٹیز کو کاپی کریں۔`,
+        instruction: `فراہم کردہ ایچ ٹی ایم ایل کوڈ ایک "باکس شیڈو جنریٹر" انٹرفیس معلوم ہوتا ہے جو صارفین کو ایک باکس کی خصوصیات کو اپنی مرضی کے مطابق کرنے کی اجازت دیتا ہے (جیسے کہ اس کا باکس شیڈو، بارڈر، سائز، اور ٹیکسٹ پراپرٹیز) اور ان کے انتخاب کی بنیاد پر تیار کردہ CSS خصوصیات کو دیکھنے کی اجازت دیتا ہے۔ اس میں ان CSS خصوصیات کو کاپی کرنے کے لیے ایک بٹن بھی شامل ہے۔ اس کوڈ کو استعمال کرنے کے بارے میں کچھ ہدایات یہ ہیں:
+        <br />
+        <br />
+
+باکس شیڈو کنٹرولز:
+<br />
+<br />
+
+
+باکس شیڈو کو حسب ضرورت بنانے کے لیے "افقی سائے،" "عمودی سائے،" "دھندلا،" "اسپریڈ" کے نیچے سلائیڈرز اور "رنگ" کے نیچے رنگ چننے والا استعمال کریں۔
+<br />
+<br />
+
+سرحد کی چوڑائی، انداز اور رنگ سیٹ کرنے کے لیے "بارڈر پراپرٹیز" کے تحت خصوصیات کو ایڈجسٹ کریں۔ ان پٹ فیلڈز کا استعمال کرتے ہوئے پکسلز میں چوڑائی اور اونچائی بتا کر "باکس سائز" میں ترمیم کریں۔ ان پٹ فیلڈ کا استعمال کرتے ہوئے "بارڈر رداس" کی وضاحت کریں۔ ٹیکسٹ کلر، ٹیکسٹ بیک گراؤنڈ کلر، ٹیکسٹ انڈینٹ، اور ٹیکسٹ ڈیکوریشن جیسی "ٹیکسٹ پراپرٹیز" کو حسب ضرورت بنائیں۔ ان پٹ فیلڈ کا استعمال کرتے ہوئے "باکس پیڈنگ" کو سیٹ کریں۔ لائیو پیش نظارہ:
+<br />
+<br />
+
+انٹرفیس کے دائیں جانب باکس، کلاس "باکس" کے ساتھ، منتخب خصوصیات کے ساتھ باکس کے لائیو پیش نظارہ کی نمائندگی کرتا ہے۔ تیار کردہ CSS پراپرٹیز:
+<br />
+<br />
+
+کنٹرولز کے نیچے، "باکس پراپرٹیز" کے عنوان کے ساتھ ایک سیکشن ہے۔ جیسا کہ آپ سیٹنگز کو ایڈجسٹ کریں گے، باکس شیڈو، بارڈر، چوڑائی اور اونچائی کے لیے پیدا کردہ CSS پراپرٹیز یہاں ظاہر ہوں گی۔ کاپی پراپرٹیز:
+<br />
+<br />
+
+اپنے کلپ بورڈ میں تیار کردہ CSS خصوصیات کو کاپی کرنے کے لیے "کاپی پراپرٹیز" بٹن پر کلک کریں۔ اس کے بعد آپ ان خصوصیات کو اپنے سی ایس ایس میں پیسٹ کر سکتے ہیں تاکہ دوسرے عناصر پر وہی اسٹائل لاگو کر سکیں۔ اس کوڈ کو استعمال کرنے کے لیے، آپ اسے HTML فائل میں کاپی اور پیسٹ کر سکتے ہیں اور اسے ویب براؤزر میں کھول سکتے ہیں۔ اس کے بعد آپ باکس کی ظاہری شکل کو اپنی مرضی کے مطابق بنانے کے لیے کنٹرولز کے ساتھ تعامل کر سکتے ہیں اور اپنے پراجیکٹس میں تیار کردہ CSS خصوصیات کو استعمال کر سکتے ہیں۔
+<br />
+<br />
+نوٹ: ایسا لگتا ہے کہ یہ کوڈ لائیو پیش نظارہ کو اپ ڈیٹ کرنے اور سی ایس ایس کی خصوصیات بنانے کے لیے JavaScript پر انحصار کرتا ہے، اس لیے یقینی بنائیں کہ آپ کے پروجیکٹ میں جاوا اسکرپٹ کا کوئی ضروری کوڈ شامل ہے۔ اگر آپ کے کوئی مخصوص سوالات ہیں یا اس کوڈ کے بارے میں مزید مدد کی ضرورت ہے، تو براہ کرم بلا جھجھک پوچھیں۔`,
+      };
+
+      function toggleTranslation() {
+        const servicesAboutText = document.getElementById("services-about");
+        const service1Text = document.getElementById("service1");
+        const service2Text = document.getElementById("service2");
+        const service3Text = document.getElementById("service3");
+        const instractionText = document.getElementById("instraction");
+        if (isEnglish) {
+          servicesAboutText.textContent = urduText.servicesAbout;
+          service1Text.textContent = urduText.service1;
+          service2Text.textContent = urduText.service2;
+          service3Text.textContent = urduText.service3;
+          instractionText.innerHTML = urduText.instruction;
+          document.getElementById("translation-button").innerText = "Urdu";
+        } else {
+          servicesAboutText.textContent = englishText.servicesAbout;
+          service1Text.textContent = englishText.service1;
+          service2Text.textContent = englishText.service2;
+          service3Text.textContent = englishText.service3;
+          instractionText.innerHTML = englishText.instruction;
+          document.getElementById("translation-button").innerText = "English";
+        }
+
+        isEnglish = !isEnglish;
+      }
+    </script>
+    <!-- Your page content goes here -->
+  </body>
+</html>

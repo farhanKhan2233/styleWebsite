@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/custom.css" />
+    <link rel="stylesheet" href="/styles/boxStyle.css" />
+
+    <title>Box Shadow Generator</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#">
+            <img src="/assest/pagelogo.PNG" alt="" />
+          </a>
+          <!-- <p>StyleSensei</p> -->
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <ul class="menu" id="menu">
+          <li><a href="../index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="box-section">
+      <div class="container">
+        <div class="controls">
+          <h1 style="margin: 10px 0; text-align: center;">Box Styling</h1>
+          <div>
+            <h3>Box Shadow Generator</h3>
+            <label for="h-shadow">Horizontal Shadow:</label>
+            <input
+              type="number"
+              id="h-shadow"
+              class="slider"
+              min="-50"
+              max="50"
+            />
+            <br><label for="v-shadow">Vertical Shadow:</label>
+            <input
+              type="number"
+              id="v-shadow"
+              class="slider"
+              min="-50"
+              max="50"
+            />
+            <br><label for="blur">Blur:</label>
+            <input type="number" id="blur" class="slider" min="0" max="50" />
+
+            <br><label for="spread">Spread:</label>
+            <input type="number" id="spread" class="slider" min="0" max="50" />
+            <br><label for="color">Color:</label>
+            <input type="color" id="color" value="white" />
+          </div>
+          <div>
+            <h3>Border Properties</h3>
+
+            <label for="border-width">Border Width (px):</label>
+            <input
+              type="number"
+              id="border-width"
+              class="slider"
+              min="0"
+              max="10"
+            />
+          </div>
+
+          <div>
+            <label for="border-style">Border Style:</label>
+            <select id="border-style">
+              <option value="none">None</option>
+              <option value="solid">Solid</option>
+              <option value="dotted">Dotted</option>
+              <option value="dashed">Dashed</option>
+            </select>
+          </div>
+          <div>
+            <label for="border-color">Border Color:</label>
+            <input type="color" id="border-color" />
+          </div>
+          <div>
+            <h3>Box Size</h3>
+
+            <label for="box-width">Width (px):</label>
+            <input
+              type="number"
+              id="box-width"
+              class="slider"
+              min="0"
+              value="200"
+            />
+          </div>
+
+          <div>
+            <label for="box-height">Height (px):</label>
+            <input
+              type="number"
+              id="box-height"
+              class="slider"
+              min="0"
+              value="200"
+            />
+          </div>
+          <h3>Border Radius</h3>
+          <div>
+            <label for="border-radius">Border Radius (px):</label>
+            <input type="number" id="border-radius" class="slider" min="0" />
+          </div>
+          <h3>Text Properties</h3>
+          <div>
+            <label for="text-color">Text Color:</label>
+            <input type="color" id="text-color" />
+          </div>
+          <div>
+            <label for="box-text-bg-color">Text Background Color:</label>
+            <input type="color" id="box-text-bg-color" />
+          </div>
+          <div>
+            <label for="text-indent">Text Indent (px):</label>
+            <input type="number" id="text-indent" class="slider" min="0" />
+          </div>
+          <div>
+            <label for="text-decoration">Text Decoration:</label>
+            <select id="text-decoration">
+              <option value="none">None</option>
+              <option value="underline">Underline</option>
+              <option value="overline">Overline</option>
+              <option value="line-through">Line-through</option>
+            </select>
+          </div>
+          <h3>Box Padding</h3>
+          <div>
+            <label for="box-padding">Box Padding (px):</label>
+            <input type="number" id="box-padding" class="slider" min="0" />
+          </div>
+        </div>
+
+        <div class="box-position">
+          <div class="box" id="box">
+            Unlock your potential and embrace the journey of growth and
+            discovery
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="info">
+      <h3>Box Properties</h3>
+      <p class="box-properties-value">
+        box-shadow: 0px 0px 0px 0px #000000; <br />
+        border: 0px none #000000; <br />
+        width: 100px; <br />
+        height: 100px;<br />
+      </p>
+      <button class="copy-button" id="copy-properties">Copy Properties</button>
+    </div>
+    <script src="/scripts/boxStyle.js"></script>
+  </body>
+</html>

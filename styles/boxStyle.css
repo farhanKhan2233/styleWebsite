@@ -1,0 +1,85 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.box-section {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+header {
+  box-shadow: 0 0 8px 2px gray;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 0 8px 2px gray;
+}
+
+.box-position,
+.controls {
+  flex-basis: 50%;
+}
+
+.box-position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container h2 {
+  margin: 10px 0;
+  text-decoration: underline;
+}
+
+.container label {
+  display: inline-block;
+  margin: 5px;
+}
+
+button {
+  padding: 5px 15px;
+  background-color: rgb(39, 67, 226);
+  color: white;
+  border: none;
+  outline: none;
+}
+
+/* Box styles */
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 0px #000000;
+  border: 0px none #000000;
+  border-radius: 0px;
+  color: #ffffff;
+  -webkit-text-stroke: 1px white;
+  text-indent: 0px;
+  text-decoration: none;
+  padding: 0px;
+  transition: box-shadow 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.info {
+  margin-top: 10px;
+  background-color: rgba(113, 184, 178, 0.6705882353);
+  text-align: center;
+  padding: 20px 0;
+}
+.info button {
+  margin-top: 10px;
+}/*# sourceMappingURL=boxStyle.css.map */
